@@ -39,6 +39,6 @@ Upon completion of the run, the code will generate loss graphs and store the res
 After cloning this repository, run the following commands
 - `python3 -m venv <your_env_name>`
 - `pip install -r requirements.txt`
-- `%REPOSITORY_HOME/<your_env_name>/Scripts/activate.bat%`
-- `%REPOSITORY_HOME` > `python preprocessor.py`
+- `%REPOSITORY_HOME%/<your_env_name>/Scripts/activate.bat`
+- `%REPOSITORY_HOME%` > `python preprocessor.py`
 - `python main.py` 
