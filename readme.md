@@ -32,3 +32,13 @@ Here we have also implemented the baseline sequence to sequence model
 The entry point to the project is the `main.py`  file. From here it is possible to control which model(s) we want to run. The `preprocess.py` is another essential file as it results in the generation of the tokenized dataset. Altering the tokenizing logic could significantly impact the results. `constants.py` contains multiple parameters used by the target model like batch size, learning rate, number of epochs, etc.
 
 Upon completion of the run, the code will generate loss graphs and store the results of the target model into a text file in the root directory of the project
+
+## Additional information
+#### If you want hassle free usage
+- Recommended python version : `Python 3.9.13`
+After cloning this repository, run the following commands
+- `python3 -m venv <your_env_name>`
+- `pip install -r requirements.txt`
+- `%REPOSITORY_HOME/<your_env_name>/Scripts/activate.bat%`
+- `%REPOSITORY_HOME` > `python preprocessor.py`
+- `python main.py` 
